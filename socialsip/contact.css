@@ -1,0 +1,48 @@
+body {
+    margin: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(images/banner2.jpg);
+}
+
+header {
+    background-color: rgb(113, 64, 46);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-container {
+   
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 12px;
+    display: block;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

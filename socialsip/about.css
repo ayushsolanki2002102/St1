@@ -1,0 +1,51 @@
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    background-color: rgb(113, 64, 46);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(images/banner2.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+#about-text h2 {
+    font-size: 24px;
+}
+
+#image-gallery {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-item {
+    margin: 10px;
+}
+
+.image-item img {
+    max-width: 100%;
+    border: 2px solid #333;
+}
+
+p {
+    font-size: 16px;
+}
+
